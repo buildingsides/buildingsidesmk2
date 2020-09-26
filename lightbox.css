@@ -1,17 +1,10 @@
 
 .lightbox-thumb {
   border: 1.5px solid rgba(0, 0, 0, .75);
-  -webkit-filter: saturate(0.5) opacity(.5);
-  filter: saturate(0.5) opacity(10px);
   margin: .5em;
   width: 6em;
 
-}
 
-.lightbox-thumb:hover {
-  border: 1.5px solid rgba(0, 0, 0, .75);
-    -webkit-filter: saturate(1.5) opacity(1);
-    filter: saturate(1.5) opacity(1);
 }
 #lightbox {
   position: fixed;
@@ -88,10 +81,10 @@
 /** Before Image Loaded Styles **/
 
 #lightbox #lightbox-content.preload {
-  width: 250px;
-  height: 250px;
-  margin-left: -125px;
-  margin-top: -125px;
+  width: 900px;
+  height: 900px;
+  margin-left: -125px auto;
+  margin-top: -125px auto;
 
 }
 #lightbox #lightbox-content.preload img#lightbox-photo {
