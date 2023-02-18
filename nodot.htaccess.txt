@@ -1,0 +1,5 @@
+#remove html file extension-e.g. https://buildingsides.com/signup.html will become https://buildingsides.com/signup
+RewriteEngine on 
+RewriteCond %{signup} !-d
+RewriteCond %{signup}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
