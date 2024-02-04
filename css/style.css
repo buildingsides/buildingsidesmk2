@@ -951,3 +951,8 @@ body {
   .active-nav .footer,
   .active-nav .rainbow-line {
     display: none; } }
+
+.footer {
+    width:400px;
+    margin:auto;
+}
