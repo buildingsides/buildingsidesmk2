@@ -230,6 +230,14 @@ background: #ddd;
 
 /* CARD GALLERY.CSS */
 
+.card-img-top {
+	width: 100%;
+	border-top-left-radius: 1px !important;
+	border-top-right-radius: 1px !important;
+
+
+}
+
 .gallery-block{
 	padding-bottom: 60px;
 	padding-top: 60px;
